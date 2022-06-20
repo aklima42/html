@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- Header -->
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-window-close" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="review.html">OUR REVIEW</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+
+		<div class="text-box">
+			<h1 style="font-size: 50px;">OUR CUSTOMERS REVIEWS</h1>
+			<p class="box">IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGER</p>
+			<a href="" class="hero-btn">Visit Us To Know More</a>
+		</div>
+		
+	</section>
+	<!-- client reviews -->
+
+	<section class="testimonials">
+	<h1>What Our Customers Says</h1>
+	<br>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, tenetur?</p>
+
+	<div class="row">
+		<div class="testimonial-col">
+			<img src="images/user1.jpg" alt="">
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi architecto odio placeat eveniet blanditiis nisi ut suscipit</p>
+				<h3>Christine Berkley</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+		</div>
+
+		<div class="testimonial-col">
+			<img src="images/user2.jpg" alt="">
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi architecto odio placeat eveniet blanditiis nisi ut suscipit</p>
+				<h3>David Byer</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+
+		  	</div>
+			
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="testimonial-col">
+			<img src="images/man1.jpg" alt="">
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi architecto odio placeat eveniet blanditiis nisi ut suscipit</p>
+				<h3>Rony Bike</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+		</div>
+
+		<div class="testimonial-col">
+			<img src="images/man2.jpg" alt="">
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi architecto odio placeat eveniet blanditiis nisi ut suscipit</p>
+				<h3>Dolando </h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-half-o"></i>
+
+		  	</div>
+			
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="testimonial-col">
+			<img src="images/user1.jpg" alt="">
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi architecto odio placeat eveniet blanditiis nisi ut suscipit</p>
+				<h3>Holden Berk</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+		</div>
+
+		<div class="testimonial-col">
+			<img src="images/user2.jpg" alt="">
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi architecto odio placeat eveniet blanditiis nisi ut suscipit</p>
+				<h3>Michel jon</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+
+		  	</div>
+			
+		</div>
+	</div>
+	
+</section>
+
+<!-- Footer -->
+
+<!-- footer -->
+
+	<section class="footer">
+	<img src="images/logow.png" alt="">
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ut necessitatibus quo<br> voluptas temporibus nihil doloremque tenetur? A ea autem temporibus </p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"> by Aklima Akter</i></p>
+</section>
+	
+	
+
+	
+
+	
+<!-- javascript for toggle menu-->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right="0"
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px"
+	}	
+</body>
+</html>
